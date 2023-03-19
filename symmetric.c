@@ -12,10 +12,10 @@ void main(){
     for(i=0;i<a;i++)
     for(j=0;j<b;j++){
         if(sq[i][j]!=sq[j][i]){
-        printf("No symmetric");
+        printf("Matrix is not symmetric");
         goto nosym;}
         else if(i==a-1 && j==b-1)
-        printf("Symmetric matrix");
+        printf("Symmetric is matrix");
     }
     nosym:
 }
