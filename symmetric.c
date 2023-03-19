@@ -4,7 +4,7 @@ void main(){
     printf("Enter the dimension of square matrix:");
     scanf("%d",&a);
     int sq[a][a],i,j;
-    printf("Enter the elements of matrix row wise:");
+    printf("Enter the elements of matrix (row wise):");
     for(i=0;i<a;i++)
     for(j=0;j<a;j++)
     scanf("%d",&sq[i][j]);
