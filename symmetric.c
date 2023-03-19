@@ -14,7 +14,7 @@ void main(){
         printf("Matrix is not symmetric");
         goto nosym;}
         else if(i==a-1 && j==a-1)
-        printf("Symmetric is matrix");
+        printf("Matrix is symmetric");
     }
     nosym:
 }
